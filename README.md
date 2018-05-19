@@ -12,6 +12,8 @@ Link: https://flask-restful.readthedocs.io/en/latest/installation.html#installat
 
 After setup create file api.py with the following hello world sample
 ##################start
+
+
 from flask import Flask
 from flask_restful import Resource, Api
 
@@ -26,6 +28,8 @@ api.add_resource(HelloWorld, '/')
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
+    
 ##################end
 
 run => python api.py
